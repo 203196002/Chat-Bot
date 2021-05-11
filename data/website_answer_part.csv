@@ -1,0 +1,85 @@
+question_id,body
+2,"            Hi,
+I think there is some problem in numbering of the vertices while you 
+generated the blockMeshDict file. This problem is either where you 
+specify the boundary face or when you specify the blocks. 
+Please check the file properly with a diagram of the pipe along with the
+ vertices and I am sure you will find the mistake.
+        "
+1,"
+            
+            
+            
+            Hi,
+
+You need to install matplotlib package separately.<div>You may go through the Getting Started with IPython tutorial.</div><div>Alternatively,<br>You may follow the instructions given in the python installation sheet available <a href=""http://spoken-tutorial.org/sites/default/files/st_videos/Python/Python_Installation_Sheet_English.pdf"" title="""" target=""_blank"">here</a>.<br>
+        </div>
+        
+        "
+3,"
+            
+            
+            Hi Ashish,<div>OpenFOAM is originally &nbsp;written in C++, but people have also used "" python "" for writing OpenFOAM codes. You can check out for PyFoam to get more idea. Other than this I don't think there is any other language which is used for openfoam codes.</div>
+        
+        
+        "
+5,"Hi, you can see the step by step installation procedures on the following links...<br>for Windows, <a target=""_blank"" title=""Install XAMPP on windows"" href=""http://www.spoken-tutorial.org/show_video?tr=221&amp;sval=1"">click here</a><br>for Linux, <a target=""_blank"" title=""Install XAMPP on Linux"" href=""http://www.spoken-tutorial.org/show_video?tr=225&amp;sval=1"">click here</a><br>"
+1,"I hope that you could install matplotlib as mentioned above.&nbsp; Let me give you another solution.<br><br>If you start your system with live DVD, a complete working environment, including all dependent packages, will be available to you.&nbsp; You can get a live DVD by one of the following two approaches:&nbsp;<div>(1) <a target=""_blank"" title=""http://python.fossee.in/livepythondvds"" href=""http://python.fossee.in/livepythondvds"">http://python.fossee.in/livepythondvds</a> - the latest distribution is 3.1GB, but has lots of things, including SAGE&nbsp;</div><div>(2) If you do not access to good bandwidth, please write to <a href=""mailto:info@fossee.in"" title="""" target="""">info@fossee.in</a> and we will gladly send you a DVD free of cost.<br>
+        
+        </div>"
+4,"Dear Alluri,<div><br></div><div>The entire Geogebra tutorial series available on our website is designed for 6th to 10th students.</div><div>The examples shown are taken from standard textbooks, and are shown step by step in the video.&nbsp;</div><div>You need to have the instruction sheet for details on how to use the tutorial. The Instruction sheet, additional questions are available when you search for a particular FOSS and language. You can access the assignments and related material for the individual tutorials below the tutorials.&nbsp;</div>"
+6,"Hi Dinesh,<br><br>Can you please explain to me where exactly do you get the error. From your query I can guess two reasons of you getting this error,<br><br><b>1 )</b> Your installation is not done properly, reinstall and check.<br><b>2 )</b> You may be trying to run ""icoFoam"" command from 0, constant or system directory, which happens with most of the beginners. You have to run it outside these directories.<br><br>Regards,<br>Rahul Joshi<br>"
+7,"
+            
+            Hello Deepak,<br>I am sorry to inform you that OpenFOAM runs only on Linux OS.&nbsp;&nbsp; However, it runs on all flavours of Linux like Ubuntu, Fedora and SuSE.&nbsp; More info is available on the OpenFOAM&nbsp; website <a href=""http://www.openfoam.org"" title="""" target=""_blank"">http://www.openfoam.org</a><br>
+        
+        "
+7,"
+            Hi Deepak,<br><br>OpenFOAM software is not designed for running with Window, but there are some versions available for windows ( which can at times be tedious ) . You can rather install a VMWare / Virtual Box and run ubuntu without compromising your windows use. But I would strongly recommend you use Linux for OpenFOAM and in case of any difficulty of using linux you can go through the Spoken Tutorials for linux.<br>
+        "
+7,"
+            
+            
+            Hi Deepak,<br><br>As suggested by Rahul, you can use Virtual Box for installing Linux to run OpenFOAM . Alternatively you may install ubuntu along with windows OR make a bootable ubuntu USB which will act as a plug-in OS device and you may install OpenFOAM in that which will run work without disturbing your present files and OS.&nbsp; <br><br>The process for making bootable usb is given in the link:&nbsp;<div><a href=""http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows"" title="""" target=""_blank"">http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows</a><br>
+        </div>
+        
+        "
+8,"Hi Arunendra,<div><br></div><div>The errors which are shown in the command terminal means that the repository from which you are downloading the packages does seem to have some it. You can try changing the repository and then try : ""sudo apt-get update"" to check . Also check with the System admins in your collage in case of some proxy issues while downloading these packages. &nbsp;</div><div><br></div><div>If all the packages are downloaded properly I don't think there would be any problem while checking OpenFOAM installation.</div><div><br></div><div>P.S : O<span style=""line-height: 1.428571429;"">pen up a new command terminal&nbsp;</span><span style=""line-height: 1.428571429;"">for running the command icoFoam -help.</span></div><div><span style=""line-height: 1.428571429;""><br></span></div><div><span style=""line-height: 1.428571429;"">Regards,</span></div>"
+8,"
+            Another point, you can run the command &nbsp;"" icoFoam -help "" directly on the command terminal. There is no need to go inside OpenFOAM folder .
+        "
+9,"
+            
+            Dear Imran,<br>You have accessed the wrong tutorial in the wrong software series for your above mentioned purpose.&nbsp; You can use LibreOffice Calc for your requirements.&nbsp; We have a series of tutorials on LibreOffice Calc.&nbsp; Pls go through them step-by-step.&nbsp; You will be able to learn how to make the changes you require after you have gone through the series.<br>
+        
+        "
+9,"
+            I have shifted this question to LibreOffice Calc.<br>
+        "
+8,"I DID THE SAME THING BUT STILL, IT IS NOT ISTALLING"
+10,"
+            
+            Dear Alaguraja<br><br>Please write in to <a href=""mailto:contact@spoken-tutorial.org"" title="""" target="""">contact@spoken-tutorial.org</a> with your queries for details about the training program.<br>
+        
+        <div><br></div>"
+11,"Hi Sangeetha, In the present version of Oscad fourier series feature is not available and we are working on it. Probably in the next version of Oscad you will be able to see it. Thanks!"
+8,"Dear Sir,<br><br>Thanks for the reply.<br><br>I have tried to install through senaptic package manager. Then also it fails. I had full privilages for Internet access. Following is list of errors:<br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/libx/libxt/libxt-dev_1.1.1-2_i386.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/libi/libibverbs/libibverbs1_1.1.3-2ubuntu1_i386.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/o/openmpi/libopenmpi1.3_1.4.3-2.1ubuntu1_i386.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/s/scotch/libscotch-5.1_5.1.11.dfsg-7_i386.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/s/scotch/libptscotch-5.1_5.1.11.dfsg-7_i386.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/o/openmpi/openmpi-common_1.4.3-2.1ubuntu1_all.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/libi/libibverbs/libibverbs-dev_1.1.3-2ubuntu1_i386.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/o/openmpi/libopenmpi-dev_1.4.3-2.1ubuntu1_i386.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/m/mpi-defaults/mpi-default-dev_0.6ubuntu1_i386.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/z/zlib/zlib1g-dev_1.2.3.4.dfsg-3ubuntu3_i386.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/s/scotch/libscotch-dev_5.1.11.dfsg-7_i386.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/o/openmpi/openmpi-bin_1.4.3-2.1ubuntu1_i386.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br><br>W: Failed to fetch http://www.openfoam.org/download/ubuntu/./dists/oneiric/main/binary-i386/openfoam210_0-1_i386.deb<br>&nbsp; Could not connect to kaz.dl.sourceforge.net:80 (88.204.157.163). - connect (101: Network is unreachable)<br><br><br>W: Failed to fetch http://www.openfoam.org/download/ubuntu/./dists/oneiric/main/binary-i386/paraviewopenfoam3120_0-1_i386.deb<br>&nbsp; Unable to connect to kaz.dl.sourceforge.net:http:<br><br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/s/scotch/libptscotch-dev_5.1.11.dfsg-7_i386.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br><br>W: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/universe/o/openmpi/openmpi-checkpoint_1.4.3-2.1ubuntu1_i386.deb<br>&nbsp; Unable to connect to us.archive.ubuntu.com:http: [IP: 91.189.91.14 80]<br><br>Thanking you,<br><br><br><br>"
+12,"Dear Arunendra,<br><br>All the above errors are due to the proxy issues in your college. You can try installing OpenFOAM from source pack , but it will take about 5/6 hours. Follow the steps on this link : http://openfoam.org/download/source.php <br><br>I hope this works out for you.<br><br>Regards,<br><br>Rahul<br>"
+13,"<p>mysql_connect() and mysql_pconnect() both are working for database 
+connection but with little difference. In mysql_pconnect(), ‘p’ stands 
+for persistance connection.</p>
+<p>When we are using mysql_connect() function, every time it is opening 
+and closing the database connection, depending on the  request .</p>
+<p>But in case of mysql_pconnect() function,<br>
+First, when connecting, the function would  try to find a (persistent) 
+connection that’s already open with the same host, username and 
+password. If one is found, an identifier for it will be returned instead
+ of opening a new connection.<br>
+Second, the connection to the SQL server will not be closed when the 
+execution of the script ends. Instead, the connection will remain open 
+for future use (mysql_close() will not close connection established by 
+mysql_pconnect()).</p>
+<p>mysql_pconncet() is useful when you have a lot of traffice on your 
+site. At that time for every request it will not open a connection but 
+will take it from the pool. This will increase the efficiency of your 
+site. But for general use mysql_connect() is best.</p>"

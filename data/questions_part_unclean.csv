@@ -1,0 +1,26 @@
+title,body
+Ipython interpreter does not contain matplotlib,"<span style=""color: rgb(85, 85, 85); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px;"">I downloaded and installed ipython interpreter but it does not contain matplotlib how can I get matplotlib installed where can I get ipython with matplotlib?</span>"
+OpenFOAM FATAL ERROR: face 7 in patch 0 does not have neighbour cell face: 4(19 20 24 23)),"Hello Everyone...<br>I am very new to OF and trying to mesh a cylinder for Hagen-Poiseuille flow. I am getting error like:<br><br>FOAM FATAL ERROR:<br>face 7 in patch 0 does not have neighbour cell face: 4(19 20 24 23)<br>From function polyMesh::facePatchFaceCells(const faceList&amp; patchFaces,const labelListList&amp; pointCells,const faceListList&amp; cellsFaceShapes,const label patchID)<br>in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 127.<br><br>Actually I tried to correct the order of points and still i got the same error..<br>Also, when i tried with ""paraFoam -block"", paraview opened and closed before showing anything.<br><br>How to rectify this..<br><br>blockMeshDict is :<br>convertToMeters 0.1;<br><br>vertices<br>(<br>(0 0 0)<br>(0.15 0.15 0)<br>(-0.15 0.15 0)<br>(-0.15 -0.15 0)<br>(0.15 -0.15 0) //4<br>(0.3 0.3 0)<br>(-0.3 0.3 0)<br>(-0.3 -0.3 0)<br>(0.3 -0.3 0)//8<br>(0.35 0.35 0)<br>(-0.35 0.35 0)<br>(-0.35 -0.35 0)<br>(0.35 -0.35 0)//12<br><br>(0.15 0.15 30)<br>(-0.15 0.15 30)<br>(-0.15 -0.15 30)<br>(0.15 -0.15 30)<br>(0.3 0.3 30)//17<br>(-0.3 0.3 30)<br>(-0.3 -0.3 30)<br>(0.3 -0.3 30)<br>(0.35 0.35 30) //21<br>(-0.35 0.35 30)<br>(-0.35 -0.35 30)<br>(0.35 -0.35 30)<br>(0 0 30) //25<br><br>);<br><br>blocks<br>(<br>hex (1 2 3 4 13 14 15 16) (10 10 150) simpleGrading (1 1 1)<br>hex (1 5 6 2 13 17 18 14) (10 10 150) simpleGrading (1 1 1)<br>hex (2 6 7 3 14 18 19 15) (10 10 150) simpleGrading (1 1 1)<br>hex (3 7 8 4 15 19 20 16) (10 10 150) simpleGrading (1 1 1)<br>hex (4 8 5 1 16 20 17 13) (10 10 150) simpleGrading (1 1 1)<br>hex (5 9 10 6 17 21 22 18) (10 10 150) simpleGrading (1 1 1)<br>hex (6 10 11 7 18 22 23 19) (10 10 150) simpleGrading (1 1 1)<br>hex (12 9 5 8 24 21 17 20) (10 10 150) simpleGrading (1 1 1)<br>);<br><br>edges<br>(<br>arc 5 6 (0 0.42426 0) // back face<br>arc 6 7 (-0.42426 0 0)<br>arc 7 8 (0 -0.42426 0)<br>arc 8 5 (0.42426 0 0)<br>arc 9 10 (0 0.5 0)<br>arc 10 11 (-0.5 0 0)<br>arc 11 12 (0 -0.5 0)<br>arc 12 9 (0.5 0 0)<br><br>arc 17 18 (0 0.42426 30) // front face<br>arc 18 19 (-0.42426 0 30)<br>arc 19 20 (0 -0.42426 30)<br>arc 20 17 (0.42426 0 30)<br>arc 21 22 (0 0.5 30)<br>arc 22 23 (-0.5 0 30)<br>arc 23 24 (0 -0.5 30)<br>arc 24 21 (0.5 0 30)<br><br>);<br><br>boundary<br>(<br>inlet<br><br>type inlet;<br>faces<br>(<br>(13 16 15 14)<br>(13 14 18 17)<br>(14 15 19 18)<br>(15 16 20 19)<br>(16 13 17 20)<br>(17 18 22 21)<br>(18 19 23 22)<br>(19 20 24 23)<br>(20 17 21 24)<br>);<br><br><br>outlet<br><br>type outlet;<br>faces<br>(<br>(1 5 6 2)<br>(2 6 7 3)<br>(3 7 8 4)<br>(4 8 5 1)<br>(1 2 3 4)<br>(5 9 10 6)<br>(6 10 11 7)<br>(7 11 12 8)<br>(8 12 9 5)<br>);<br><br><br>fixedWalls<br><br>type wall;<br>faces<br>(<br>(21 22 10 19)<br>(22 23 11 10)<br>(23 24 12 11)<br>(24 21 9 12)<br>);<br><br>);<br><br>mergePatchPairs<br>(<br>);<br>"
+Programming language for OpenFOAM.,"
+        
+        
+        
+        
+        
+        
+        
+        Can i do programming on C or C++ for using OpenFOAM or i have to go another programming language?
+    
+    
+    
+    
+    
+    
+    
+    "
+About Geogebra,Which part of geogebra is useful to class 6-10 students?<br>Is there any tutorial notes with step by step solved examples for Geogebra?<br>
+PHP MySQL,"
+        
+        I got spoken tutorial course containing PHP packages along with video tutorials and related software.<br>How to install PHP software packages and use them for my practice. Please give step by step procedure<br>
+    
+    "
